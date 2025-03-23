@@ -1,6 +1,6 @@
 function displayTitle(){
     const curWeekLink = "https://chenin0423.synology.me:5001/";
-    var  curWeek = '3.16.2025 - 3.22.2025';
+    var  curWeek = '3.23.2025 - 3.29.2025';
     const title = `<h1><a href=${curWeekLink}>本周(${curWeek})晨兴与读经进度</a></h1><hr>`;
     document.getElementById("title").innerHTML = title;
 }
@@ -8,8 +8,8 @@ function displayTitle(){
 function displayMorningRevival(){
     const title = '<h2>晨兴圣言</h2>';
     const book = '2024年秋季长老负责弟兄训练 活在神国的实际里';
-    const chapter = "第五周 活在神的主宰权柄之下并照着神的怜悯而活"
-    const link = "https://stemofjesse.org/doku/doku.php/%E6%99%A8%E5%85%B4%E5%9C%A3%E8%A8%80:2024:2024.05.%E7%A7%8B%E5%AD%A3%E9%95%BF%E8%80%81%E8%B4%9F%E8%B4%A3%E5%BC%9F%E5%85%84%E8%AE%AD%E7%BB%83:%E7%AC%AC%E4%BA%94%E5%91%A8";
+    const chapter = "第六周 在生命上儆醒并在服事上忠信"
+    const link = "https://stemofjesse.org/doku/doku.php/%E6%99%A8%E5%85%B4%E5%9C%A3%E8%A8%80:2024:2024.05.%E7%A7%8B%E5%AD%A3%E9%95%BF%E8%80%81%E8%B4%9F%E8%B4%A3%E5%BC%9F%E5%85%84%E8%AE%AD%E7%BB%83:%E7%AC%AC%E5%85%AD%E5%91%A8";
     const content = `<h3><ul><li>书目: ${book}</li><li>进度: <a href=${link}>${chapter}</a></li></ul></h3>`;
     document.getElementById("morningrevival").innerHTML = title + content;
 }
@@ -17,11 +17,11 @@ function displayMorningRevival(){
 function displayBible(){
     const title = '<h2>圣经</h2>';
     const old_test = "出埃及记";
-    const old_test_cov = "第4~8章";
-    const old_test_link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=2&f_ChapterNo=4";
+    const old_test_cov = "第9~13章";
+    const old_test_link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=2&f_ChapterNo=9";
     const new_test = "路加福音";
-    const new_test_cov = "第10~14章";
-    const new_test_link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=42&f_ChapterNo=10";
+    const new_test_cov = "第15~19章";
+    const new_test_link = "https://www.recoveryversion.com.tw/Style0A/026/read_List.php?f_BookNo=42&f_ChapterNo=15";
     const content = `<h3><ul><li>旧约: ${old_test} <a href=${old_test_link}>${old_test_cov}</a></li><li>新约: ${new_test} <a href=${new_test_link}>${new_test_cov}</a></li></ul></h3>`;
     document.getElementById("bible").innerHTML = title + content;
 }
