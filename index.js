@@ -1,7 +1,7 @@
 function displayTitle(){
     const curWeekLink = "https://chenin0423.synology.me:5001/";
     var  curWeek = '3.23.2025 - 3.29.2025';
-    const title = `<h1><a href=${curWeekLink}>本周(${curWeek})晨兴与读经进度</a></h1><hr>`;
+    const title = `<h1>本周(<a href=${curWeekLink}>${curWeek}</a>)晨兴与读经进度</h1><hr>`;
     document.getElementById("title").innerHTML = title;
 }
 
