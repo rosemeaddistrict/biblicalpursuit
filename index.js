@@ -1,15 +1,15 @@
 const curWeekLink = "https://chenin0423.synology.me:5001/";
 
 function displayTitle(){
-    var  curWeek = '4.06.2025 - 4.12.2025';
+    var  curWeek = '4.13.2025 - 4.19.2025';
     const title = `<h1>本周(${curWeek})晨兴与读经进度</a></h1><hr>`;
     document.getElementById("title").innerHTML = title;
 }
 
 function displayMorningRevival(){
     const title = '<h2>晨兴圣言</h2>';
-    const book = '2024年秋季长老负责弟兄训练 活在神国的实际里';
-    const chapter = "第八周 传扬国度的福音并使万民作主的门徒"
+    const book = '2024年冬季训练 经历、享受并彰显基督（二）';
+    const chapter = "第一周 大卫的后裔成为神的儿子"
     const link = curWeekLink;
     //const link = "https://stemofjesse.org/doku/doku.php/%E6%99%A8%E5%85%B4%E5%9C%A3%E8%A8%80:2024:2024.05.%E7%A7%8B%E5%AD%A3%E9%95%BF%E8%80%81%E8%B4%9F%E8%B4%A3%E5%BC%9F%E5%85%84%E8%AE%AD%E7%BB%83:%E7%AC%AC%E5%85%AD%E5%91%A8";
     const content = `<h3><ul><li>书目: ${book}</li><li>进度: <a href=${link}>${chapter}</a></li></ul></h3>`;
