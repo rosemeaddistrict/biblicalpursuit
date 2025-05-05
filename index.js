@@ -37,7 +37,7 @@ function displayLifeStudy(){
     const book = "马太福音生命读经";
     const coverage = "第15~22篇";
     const link = curWeekLink;
-    const date = "5/22/2025";
+    const date = "5/15/2025";
     const content = `<h3><ul><li>进度: ${book} <a href=${link}>${coverage}</a></li><li>展览日期: ${date}</li></ul></h3>`;
     document.getElementById("lifestudy").innerHTML = title + content;
 }
