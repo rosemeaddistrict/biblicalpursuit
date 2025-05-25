@@ -9,7 +9,7 @@ function displayTitle(){
 function displayMorningRevival(){
     const title = '<h2>晨兴圣言</h2>';
     const book = '2024年冬季训练 经历、享受并彰显基督（二）';
-    const chapter = "第六周 神的恩典与包罗万有的灵"
+    const chapter = "第七周 成形在信徒里面的那一位"
     const link = curWeekLink;
     //const link = "https://stemofjesse.org/doku/doku.php/%E6%99%A8%E5%85%B4%E5%9C%A3%E8%A8%80:2024:2024.05.%E7%A7%8B%E5%AD%A3%E9%95%BF%E8%80%81%E8%B4%9F%E8%B4%A3%E5%BC%9F%E5%85%84%E8%AE%AD%E7%BB%83:%E7%AC%AC%E5%85%AD%E5%91%A8";
     const content = `<h3><ul><li>书目: ${book}</li><li>进度: <a href=${link}>${chapter}</a></li></ul></h3>`;
@@ -19,7 +19,7 @@ function displayMorningRevival(){
 function displayBible(){
     const title = '<h2>圣经</h2>';
     const old_test = "利未记";
-    const old_test_cov = "第9~13章";
+    const old_test_cov = "第14~18章";
     const old_test_link = curWeekLink;
     const new_test = "使徒行传";
     const new_test_cov = "第10~14章";
