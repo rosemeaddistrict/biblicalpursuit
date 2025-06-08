@@ -25,7 +25,7 @@ function displayBible(){
     const old_test_cov1 = "第1章";
     const old_test_link1 = curWeekLink;
     const new_test = "使徒行传";
-    const new_test_cov = "第20~24章";
+    const new_test_cov = "第25~28章";
     const new_test_link = curWeekLink;
     const new_test1 = "罗马书";
     const new_test_cov1 = "第1章";
