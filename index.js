@@ -1,7 +1,7 @@
 const curWeekLink = "https://chenin0423.synology.me:5001/";
 
 function displayTitle(){
-    var  curWeek = '6.1.2025 - 6.7.2025';
+    var  curWeek = '6.8.2025 - 6.14.2025';
     const title = `<h1>本周(${curWeek})晨兴与读经进度</a></h1><hr>`;
     document.getElementById("title").innerHTML = title;
 }
