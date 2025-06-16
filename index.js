@@ -21,13 +21,10 @@ function displayBible(){
     const old_test = "民数记";
     const old_test_cov = "第2~4章";
     const old_test_link = curWeekLink;
-    const new_test = "使徒行传";
-    const new_test_cov = "第25~28章";
+    const new_test = "罗马书";
+    const new_test_cov = "第2~6章";
     const new_test_link = curWeekLink;
-    const new_test1 = "罗马书";
-    const new_test_cov1 = "第1章";
-    const new_test_link1 = curWeekLink;
-    const content = `<h3><ul><li>旧约: ${old_test} <a href=${old_test_link}>${old_test_cov}</a></li><li>新约: ${new_test} <a href=${new_test_link}>${new_test_cov}</a>, ${new_test1} <a href=${new_test_link1}>${new_test_cov1}</a></li></ul></h3>`;
+    const content = `<h3><ul><li>旧约: ${old_test} <a href=${old_test_link}>${old_test_cov}</a></li><li>新约: ${new_test} <a href=${new_test_link}>${new_test_cov}</a></li></ul></h3>`;
     document.getElementById("bible").innerHTML = title + content;
 }
 
