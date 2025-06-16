@@ -18,28 +18,25 @@ function displayMorningRevival(){
 
 function displayBible(){
     const title = '<h2>圣经</h2>';
-    const old_test = "利未记";
-    const old_test_cov = "第24~27章";
+    const old_test = "民数记";
+    const old_test_cov = "第2~4章";
     const old_test_link = curWeekLink;
-    const old_test1 = "民数记";
-    const old_test_cov1 = "第1章";
-    const old_test_link1 = curWeekLink;
     const new_test = "使徒行传";
     const new_test_cov = "第25~28章";
     const new_test_link = curWeekLink;
     const new_test1 = "罗马书";
     const new_test_cov1 = "第1章";
     const new_test_link1 = curWeekLink;
-    const content = `<h3><ul><li>旧约: ${old_test} <a href=${old_test_link}>${old_test_cov}</a>, ${old_test1} <a href=${old_test_link1}>${old_test_cov1}</a></li><li>新约: ${new_test} <a href=${new_test_link}>${new_test_cov}</a>, ${new_test1} <a href=${new_test_link1}>${new_test_cov1}</a></li></ul></h3>`;
+    const content = `<h3><ul><li>旧约: ${old_test} <a href=${old_test_link}>${old_test_cov}</a></li><li>新约: ${new_test} <a href=${new_test_link}>${new_test_cov}</a>, ${new_test1} <a href=${new_test_link1}>${new_test_cov1}</a></li></ul></h3>`;
     document.getElementById("bible").innerHTML = title + content;
 }
 
 function displayLifeStudy(){
     const title = '<h2>生命读经</h2>';
     const book = "马太福音生命读经";
-    const coverage = "第23, 24, 35~40篇";
+    const coverage = "第61~67篇";
     const link = curWeekLink;
-    const date = "6/12/2025";
+    const date = "7/17/2025";
     const content = `<h3><ul><li>进度: ${book} <a href=${link}>${coverage}</a></li><li>展览日期: ${date}</li></ul></h3>`;
     document.getElementById("lifestudy").innerHTML = title + content;
 }
