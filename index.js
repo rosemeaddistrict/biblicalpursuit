@@ -19,10 +19,10 @@ function displayMorningRevival(){
 function displayBible(){
     const title = '<h2>圣经</h2>';
     const old_test = "民数记";
-    const old_test_cov = "第12~16章";
+    const old_test_cov = "第17~21章"
     const old_test_link = curWeekLink;
-    const new_test = "罗马书";
-    const new_test_cov = "第12~16章";
+    const new_test = "哥林多前书";
+    const new_test_cov = "第1~5章";
     const new_test_link = curWeekLink;
     const content = `<h3><ul><li>旧约: ${old_test} <a href=${old_test_link}>${old_test_cov}</a></li><li>新约: ${new_test} <a href=${new_test_link}>${new_test_cov}</a></li></ul></h3>`;
     document.getElementById("bible").innerHTML = title + content;
