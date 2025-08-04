@@ -31,7 +31,7 @@ function displayBible(){
 function displayLifeStudy(){
     const title = '<h2>生命读经</h2>';
     const book = "雅歌";
-    const coverage = "一章1節～二章七節：(雅歌生命讀經 [一至二篇]，雅歌結晶讀經 [一至四篇]，歌中之歌 [導言，題目，分段，第一段])";
+    const coverage = "一章1节～二章七节：(雅歌生命读经 [一至二篇]，雅歌结晶读经 [一至四篇]，歌中之歌 [导言，题目，分段，第一段])";
     const link = curWeekLink;
     const date = "8.21.2025";
     const content = `<h3><ul><li>进度: ${book} <a href=${link}>${coverage}</a></li><li>展览日期: ${date}</li></ul></h3>`;
