@@ -19,14 +19,12 @@ function displayMorningRevival(){
 function displayBible(){
     const title = '<h2>圣经</h2>';
     const old_test = "申命记";
-    const old_test_cov = "第6~10章"
+    const old_test_cov = "第11~15章"
     const old_test_link = curWeekLink;
-    const new_test = "哥林多后书";
-    const new_test_cov = "第10~13章";
-    const new_test1 = "加拉太书";
-    const new_test_cov1 = "第1章";
+    const new_test = "加拉太书";
+    const new_test_cov = "第2~6章";
     const new_test_link = curWeekLink;
-    const content = `<h3><ul><li>旧约: ${old_test} <a href=${old_test_link}>${old_test_cov}</a></li><li>新约: ${new_test} <a href=${new_test_link}>${new_test_cov}</a> ${new_test1} <a href=${new_test_link}>${new_test_cov1}</a></li></ul></h3>`;
+    const content = `<h3><ul><li>旧约: ${old_test} <a href=${old_test_link}>${old_test_cov}</a></li><li>新约: ${new_test} <a href=${new_test_link}>${new_test_cov}</a></li></ul></h3>`;
     document.getElementById("bible").innerHTML = title + content;
 }
 
