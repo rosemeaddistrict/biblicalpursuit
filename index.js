@@ -23,7 +23,7 @@ function displayBible(){
     const old_test_link = curWeekLink;
     const new_test = "腓利门书";
     const new_test_cov = "第1章";
-    const new_test1 = "希伯来书 ";
+    const new_test1 = "希伯来书";
     const new_test_cov1 = "第1~4章";
     const new_test_link = curWeekLink;
     const content = `<h3><ul><li>旧约: ${old_test} <a href=${old_test_link}>${old_test_cov}</a></li><li>新约: ${new_test} <a href=${new_test_link}>${new_test_cov}</a> ${new_test1} <a href=${new_test_link}>${new_test_cov1}</a></li></ul></h3>`;
