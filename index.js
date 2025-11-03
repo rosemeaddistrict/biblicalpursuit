@@ -1,7 +1,7 @@
 const curWeekLink = "https://chenin0423.synology.me:5001/";
 
 function displayTitle(){
-    var  curWeek = '10.26.2025 - 11.01.2025';
+    var  curWeek = '11.02.2025 - 11.08.2025';
     const title = `<h1>本周(${curWeek})晨兴与读经进度</a></h1><hr>`;
     document.getElementById("title").innerHTML = title;
 }
@@ -9,7 +9,7 @@ function displayTitle(){
 function displayMorningRevival(){
     const title = '<h2>晨兴圣言</h2>';
     const book = '2025年夏季训练 经历、享受并彰显基督（三）';
-    const chapter = "第三周 享受包罗万有的基督作美地—我们所分得的分"
+    const chapter = "第四周 神的奥秘—基督"
     const link = curWeekLink;
     //const link = "https://stemofjesse.org/doku/doku.php/%E6%99%A8%E5%85%B4%E5%9C%A3%E8%A8%80:2024:2024.05.%E7%A7%8B%E5%AD%A3%E9%95%BF%E8%80%81%E8%B4%9F%E8%B4%A3%E5%BC%9F%E5%85%84%E8%AE%AD%E7%BB%83:%E7%AC%AC%E5%85%AD%E5%91%A8";
     const content = `<h3><ul><li>书目: ${book}</li><li>进度: <a href=${link}>${chapter}</a></li></ul></h3>`;
@@ -19,11 +19,11 @@ function displayMorningRevival(){
 function displayBible(){
     const title = '<h2>圣经</h2>';
     const old_test = "士师记";
-    const old_test_cov = "第3~7章"
+    const old_test_cov = "第8~12章"
     const old_test_link = curWeekLink;
-    const new_test = "希伯来书";
-    const new_test_cov = "第10~13章";
-    const new_test1 = "雅各书";
+    const new_test = "雅各书";
+    const new_test_cov = "第2~5章";
+    const new_test1 = "彼得前书";
     const new_test_cov1 = "第1章";
     const new_test_link = curWeekLink;
     const content = `<h3><ul><li>旧约: ${old_test} <a href=${old_test_link}>${old_test_cov}</a></li><li>新约: ${new_test} <a href=${new_test_link}>${new_test_cov}</a>, ${new_test1} <a href=${new_test_link}>${new_test_cov1}</a></li></ul></h3>`;
