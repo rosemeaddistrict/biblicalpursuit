@@ -1,4 +1,4 @@
-const curWeekLink = "https://chenin0423.synology.me:5001/";
+const curWeekLink = "https://chenin0423.synology.me:9090/study/";
 
 function displayTitle(){
     var  curWeek = '12.14.2025 - 12.20.2025';
